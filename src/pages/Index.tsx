@@ -93,12 +93,12 @@ export default function Index() {
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div
-              className="w-9 h-9 flex items-center justify-center rounded"
-              style={{ backgroundColor: "var(--gold)", color: "#071510" }}
-            >
-              <span className="font-cormorant font-bold text-lg leading-none">Г</span>
-            </div>
+            <img
+              src="https://cdn.poehali.dev/projects/6089211e-fd2f-4620-b9da-c39e72188cce/bucket/67e4cf2d-e614-43c8-abca-2d010f7af4ef.png"
+              alt="ГК СТАФФСИНТЕЗ"
+              className="w-10 h-10 object-contain"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
             <div>
               <div className="font-cormorant font-semibold text-lg leading-tight" style={{ color: "var(--gold)" }}>
                 ГК СТАФФСИНТЕЗ
