@@ -103,9 +103,7 @@ export default function Index() {
               <div className="font-cormorant font-semibold text-lg leading-tight" style={{ color: "var(--gold)" }}>
                 ГК СТАФФСИНТЕЗ
               </div>
-              <div className="text-xs opacity-50 leading-tight" style={{ fontSize: "10px", color: "#9dbfab" }}>
-                ООО &bull; Кадровые решения
-              </div>
+              <div className="text-xs opacity-50 leading-tight" style={{ fontSize: "10px", color: "#9dbfab" }}></div>
             </div>
           </div>
 
