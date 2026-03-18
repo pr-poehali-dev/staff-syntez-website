@@ -91,19 +91,23 @@ export default function Index() {
           borderBottom: scrolled ? "1px solid rgba(201,168,76,0.15)" : "none",
         }}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between relative">
-          {/* Логотип по центру */}
-          <div className="absolute left-1/2 -translate-x-1/2 flex items-center">
-            <img
-              src="https://cdn.poehali.dev/projects/6089211e-fd2f-4620-b9da-c39e72188cce/bucket/d2f28c22-64c6-4642-88a0-f2078990ccd0.png"
-              alt="ГК СТАФФСИНТЕЗ"
-              className="h-14 w-auto object-contain"
-              style={{ filter: "brightness(0) invert(1)" }}
-            />
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div
+              className="w-9 h-9 flex items-center justify-center rounded"
+              style={{ backgroundColor: "var(--gold)", color: "#071510" }}
+            >
+              <span className="font-cormorant font-bold text-lg leading-none">Г</span>
+            </div>
+            <div>
+              <div className="font-cormorant font-semibold text-lg leading-tight" style={{ color: "var(--gold)" }}>
+                ГК СТАФФСИНТЕЗ
+              </div>
+              <div className="text-xs opacity-50 leading-tight" style={{ fontSize: "10px", color: "#9dbfab" }}>
+                ООО &bull; Кадровые решения
+              </div>
+            </div>
           </div>
-
-          {/* Пустой блок-заглушка слева для баланса */}
-          <div className="w-14" />
 
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((l) => (
