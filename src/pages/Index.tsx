@@ -408,9 +408,7 @@ export default function Index() {
             <h2 className="font-cormorant font-semibold mb-4" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", color: "#f0f7f2" }}>
               Готовы оптимизировать ваши кадровые расходы?
             </h2>
-            <p className="mb-8 text-base" style={{ color: "#7da891" }}>
-              Оставьте заявку — наш эксперт свяжется с вами в течение 15 минут и подберёт оптимальное решение
-            </p>
+            <p className="mb-8 text-base" style={{ color: "#7da891" }}>Оставьте заявку — наш эксперт свяжется с вами и подберёт оптимальное решение</p>
             <button
               onClick={() => scrollTo("#contacts")}
               className="px-10 py-4 font-medium text-base rounded transition-all duration-300 hover:scale-105 hover:shadow-2xl"
