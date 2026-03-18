@@ -330,9 +330,9 @@ export default function Index() {
               <div className="text-xs tracking-[0.3em] uppercase mb-4" style={{ color: "var(--gold)", opacity: 0.7 }}>
                 О нас
               </div>
-              <h2 className="font-cormorant font-semibold mb-6" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "#f0f7f2" }}>
-                12 лет надёжного партнёрства
-              </h2>
+              <h2 className="font-cormorant font-semibold mb-6" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "#f0f7f2" }}>Мы предлагаем работу на крупнейших строительных
+и промышленных предприятиях
+различных отраслей на всей территории России</h2>
               <p className="text-base leading-relaxed mb-5" style={{ color: "#7da891" }}>
                 ООО «ГК СТАФФСИНТЕЗ» — это профессиональная группа компаний, специализирующаяся на комплексных кадровых решениях для российского бизнеса. Мы работаем с предприятиями из промышленности, торговли, логистики, IT и сферы услуг.
               </p>
